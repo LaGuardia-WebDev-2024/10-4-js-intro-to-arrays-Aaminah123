@@ -8,6 +8,17 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+var fruits = ["apples", "pineapples", "grapes"];
+fill(random(255), random(255), random(255));
+text("apple", 100, 300);
 
+fill(random(255), random(255), random(255));
+text("pineapples", 200, 100);
+
+fill(random(255), random(255), random(255));
+text("grapes", 20, 100);
+
+fill(random(255), random(255), random(255));
+text("My top " + 3 + " favorite fruits", 10, 40);
 };
 
